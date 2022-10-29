@@ -1,0 +1,19 @@
+查看工作路径是否干净 git status
+创建分支 git checkout  -b 
+查看所有分支 git  branch
+合并分支  要先切換到主分支master  git checkout master  合并分支命令行（git merge login)  
+項目提交到碼雲倉庫 git push
+数据添加到暂存区 git add .
+分支提交到碼雲倉庫 git push -u origin 分支名稱
+入口文件 main.js
+
+
+单文件组成部分为 结构 样式 行为
+
+scoped 防止样式冲突
+router 路由器 重定向{path:'/',redirect:'/login'}
+
+plugins 存放element.js 组件 要用什么组件，要提前设置
+assets 存放css 以及图片
+
+node .\app.js
